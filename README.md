@@ -1,3 +1,14 @@
+# Horned Animals
+
+This project is designed to display images and information for horned animals!
+
+Future implementation: 
+
+- Filter images by number of horns.
+- Choose your favorite image/horned animal.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
