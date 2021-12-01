@@ -7,6 +7,52 @@ Future implementation:
 - Filter images by number of horns.
 - Choose your favorite image/horned animal.
 
+11/30/21: With lots of help from Michael Metcalf in remo.
+
+
+**Feature 1 Time Estimate**
+
+Number and name of feature: Feature #1: Display images
+
+As a user, I want to view the images on the page so that I can browse the photo collection.
+
+Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
+
+Create state inside of the HornedBeast component that keeps track of the number of times an image was clicked.
+
+Put a heart in each horned beast with the number of times it was “favorited” next to it.
+
+Estimate of time needed to complete: 1-2hrs
+
+Start time: 3:57PM PST
+
+Finish time: 9:01PM PST
+
+Actual time needed to complete: 5hrs
+
+
+**Feature 2 Time Estimate**
+
+Number and name of feature: Feature #2: Allow users to vote for their favorite beast
+
+Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
+
+Estimate of time needed to complete: 1-2 hours
+
+Start time: 9:02 PM
+
+Finish time: 9:07 PM
+
+Actual time needed to complete: 5 minutes
+
+
+
+
+
+
+
+
+
 
 
 # Getting Started with Create React App

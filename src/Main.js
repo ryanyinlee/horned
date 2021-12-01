@@ -1,16 +1,35 @@
 import { Component } from 'react';
 import HornedBeasts from './HornedBeasts.js';
+import data from './data.json';
+
+
+// This was done with help from Michael Metcalf in Remo.
 
 class Main extends Component {
+
+
+
     render() {
+
         return (
+
             <div>
-                <HornedBeasts title="rhino" imageUrl="https://i.imgur.com/zn7AI5W.jpg" description="big chonker" />
-                <HornedBeasts title="goat" imageUrl="https://i.imgur.com/aIf3Sez.jpg" description="goat is smug note: horns hard to see" />
+                {
+                    data.map(horned => {
+                        return (<HornedBeasts name={horned.title} imageUrl={horned.image_url} description={horned.description} keyword={horned.keyword} horns={horned.horns}/>)
+                    }
+
+                    )
+
+                }
             </div>
 
         )
+
+
     }
+
 }
+
 
 export default Main
