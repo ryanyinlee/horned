@@ -8,6 +8,50 @@ Future implementation:
 - Choose your favorite image/horned animal.
 
 
+**Feature 1 Time Estimate**
+
+Number and name of feature: Feature #1: Display images
+
+As a user, I want to view the images on the page so that I can browse the photo collection.
+
+Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
+
+Create state inside of the HornedBeast component that keeps track of the number of times an image was clicked.
+
+Put a heart in each horned beast with the number of times it was “favorited” next to it.
+
+Estimate of time needed to complete: 1-2hrs
+
+Start time: 3:57PM PST
+
+Finish time: 
+
+Actual time needed to complete: 
+
+
+**Feature 2 Time Estimate**
+
+Number and name of feature: Feature #2: Allow users to vote for their favorite beast
+
+Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
+
+Estimate of time needed to complete: 1-2 hours
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+
+
+
+
+
+
+
+
+
+
 
 # Getting Started with Create React App
 

@@ -1,7 +1,10 @@
 import { Component } from 'react';
+import data from './data.json';
+
 
 class HornedBeasts extends Component {
     render() {
+        
         return (
             <div>
                 <h2>{this.props.name}</h2>
@@ -12,6 +15,8 @@ class HornedBeasts extends Component {
         )
 
     }
+
 }
+
 
 export default HornedBeasts
