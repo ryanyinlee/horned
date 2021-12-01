@@ -7,6 +7,8 @@ Future implementation:
 - Filter images by number of horns.
 - Choose your favorite image/horned animal.
 
+11/30/21: With lots of help from Michael Metcalf in remo.
+
 
 **Feature 1 Time Estimate**
 
@@ -24,9 +26,9 @@ Estimate of time needed to complete: 1-2hrs
 
 Start time: 3:57PM PST
 
-Finish time: 
+Finish time: 9:01PM PST
 
-Actual time needed to complete: 
+Actual time needed to complete: 5hrs
 
 
 **Feature 2 Time Estimate**
@@ -37,11 +39,11 @@ Given that a user clicks on an image, the number of “favorites” displayed on
 
 Estimate of time needed to complete: 1-2 hours
 
-Start time: 
+Start time: 9:02 PM
 
-Finish time: 
+Finish time: 9:07 PM
 
-Actual time needed to complete: 
+Actual time needed to complete: 5 minutes
 
 
 

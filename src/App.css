@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  height: 2 rem;
+  width: 2 rem;
+  color: hotpink;
+}
