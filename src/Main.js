@@ -4,7 +4,19 @@ import data from './data.json';
 
 // This was done with help from Michael Metcalf in Remo.
 
+
 class Main extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {            
+          
+        }
+    }
+    
+
+
+
     render() {
         return (
             <div>
