@@ -7,29 +7,16 @@ import data from './data.json';
 
 class Main extends Component {
 
-
-
     render() {
-
         return (
-
             <div>
                 {
                     data.map(horned => {
-                        return (<HornedBeasts name={horned.title} imageUrl={horned.image_url} description={horned.description} keyword={horned.keyword} horns={horned.horns}/>)
-                    }
-
-                    )
-
+                        return (<HornedBeasts name={horned.title} imageUrl={horned.image_url} description={horned.description} keyword={horned.keyword} horns={horned.horns} />)
+                    })
                 }
             </div>
-
         )
-
-
     }
-
 }
-
-
 export default Main
