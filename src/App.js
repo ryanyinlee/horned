@@ -6,12 +6,35 @@ import data from './data.json';
 import PopUp from './PopUp.js';
 
 export default class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      beastToShow: {},
+      showModal: false
+    }
+  }
+
+
+  openModal = () => {
+    this.setState({ showModal: true });
+  }
+
+  closeModal = () => {
+    this.setState({ showModal: false });
+  }
+
+  updateBeast = (beast) => {
+    this.setState({beastToShow: beast});
+    this.openModal();
+  }
+
   render() {
     return (
       <div>
         <Header />
-        <Main />
-        <PopUp />
+        <Main updateBeast={this.updateBeast} data={data} />
+        <PopUp showModal={this.state.showModal} beastToShow={this.state.beastToShow} closeModal={this.state.showModal} />
         <Footer />
       </div>
     )

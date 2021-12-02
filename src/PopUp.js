@@ -6,12 +6,13 @@ import Button from 'react-bootstrap/Button';
 // import data from './data.json';
 import InThePopUp from './InThePopUp.js';
 
+
 export default class PopUp extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-
+    
     }
   }
 
