@@ -13,7 +13,6 @@ class HornedBeasts extends Component {
 
     handleClick = () => {
         this.props.updateBeast(this.props.beast);
-        // this.openModal();   
     }
 
     addToFavorites = () => {        

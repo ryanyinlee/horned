@@ -4,6 +4,7 @@ import Main from './Main.js';
 import Footer from './Footer.js';
 import data from './data.json';
 import SelectedBeast from './SelectedBeast.js';
+import Form from './Form.js';
 
 export default class App extends Component {
 
@@ -34,6 +35,7 @@ export default class App extends Component {
     return (
       <div>
         <Header />
+        <Form />
         <Main updateBeast={this.updateBeast} data={data} />
         <SelectedBeast show={this.state.show} beastToShow={this.state.beastToShow} closeModal={this.closeModal} />
         <Footer />
