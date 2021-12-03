@@ -4,19 +4,13 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 
 
+
 export default class SelectedBeast extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-            
-    }
-}
-
-   render() {
+  render() {
         return (
       
-      <Modal show={this.props.showModal} onHide={this.handleClose}>
+      <Modal show={this.props.show} onHide={this.props.closeModal}>
         <Modal.Header closeButton>
           <Modal.Title>{this.props.beastToShow.title}</Modal.Title>
         </Modal.Header>
@@ -26,7 +20,7 @@ export default class SelectedBeast extends Component {
           </Card>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" onClick={this.props.handleClose}>
+          <Button  onClick={this.props.closeModal} >
             Close
           </Button>
         </Modal.Footer>

@@ -11,23 +11,23 @@ export default class App extends Component {
     super(props);
     this.state = {
       beastToShow: {},
-      showModal: false
+      show: false
     }
   }
 
 
-  openModal = () => {
-    this.setState({ showModal: true });
-    console.log(this.showModal);
-  }
+  // openModal = () => {
+  //   this.setState({ show: true });
+  // }
+
 
   closeModal = () => {
-    this.setState({ showModal: false });
+    this.setState({ show: false });
   }
 
   updateBeast = (beast) => {
-    this.setState({beastToShow: beast});
-    this.openModal();
+    this.setState({ beastToShow: beast });
+    this.setState({show: true});
   }
 
   render() {
@@ -35,7 +35,7 @@ export default class App extends Component {
       <div>
         <Header />
         <Main updateBeast={this.updateBeast} data={data} />
-        <SelectedBeast showModal={this.state.showModal}  beastToShow={this.state.beastToShow}  />
+        <SelectedBeast show={this.state.show} beastToShow={this.state.beastToShow} closeModal={this.closeModal} />
         <Footer />
       </div>
     )

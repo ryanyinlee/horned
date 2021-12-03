@@ -1,12 +1,6 @@
 import { Component } from 'react';
-// import Image from 'react-bootstrap/Image';
-// import SelectedBeast from './SelectedBeast.js';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-// import Figure from 'react-bootstrap/Figure';
-// import FigureImage from 'react-bootstrap/FigureImage';
-// import FigureCaption from 'react-bootstrap/FigureCaption';
-
 
 class HornedBeasts extends Component {
 
@@ -14,33 +8,18 @@ class HornedBeasts extends Component {
         super(props);
         this.state = {
             favorites: 0,
-            showModal: false,      
         }
-    }
-
-    openModal = () => {
-        this.setState({ showModal: true });
-    }
-
-    closeModal = () => {
-        this.setState({ showModal: false });
-        console.log(this.showModal);
     }
 
     handleClick = () => {
         this.props.updateBeast(this.props.beast);
-        this.openModal();   
-    }
-
-    handleClose = () => {
-        this.closeModal();
+        // this.openModal();   
     }
 
     addToFavorites = () => {        
         this.setState({favorites: this.state.favorites + 1});
     }
   
-
     render() {
         return (
             <div>
