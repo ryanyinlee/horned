@@ -19,19 +19,21 @@ class HornedBeasts extends Component {
     }
 
     openModal = () => {
-        this.setState({ showModal: true })
+        this.setState({ showModal: true });
     }
 
     closeModal = () => {
-        this.setState({ showModal: false })
+        this.setState({ showModal: false });
+        console.log(this.showModal);
     }
-
-
 
     handleClick = () => {
         this.props.updateBeast(this.props.beast);
-        this.openModal(); // opens the pop up
-       
+        this.openModal();   
+    }
+
+    handleClose = () => {
+        this.closeModal();
     }
 
     addToFavorites = () => {        

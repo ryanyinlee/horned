@@ -18,6 +18,7 @@ export default class App extends Component {
 
   openModal = () => {
     this.setState({ showModal: true });
+    console.log(this.showModal);
   }
 
   closeModal = () => {
@@ -34,7 +35,7 @@ export default class App extends Component {
       <div>
         <Header />
         <Main updateBeast={this.updateBeast} data={data} />
-        <SelectedBeast showModal={this.state.showModal} beastToShow={this.state.beastToShow} closeModal={this.state.closeModal} />
+        <SelectedBeast showModal={this.state.showModal}  beastToShow={this.state.beastToShow}  />
         <Footer />
       </div>
     )
