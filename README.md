@@ -49,15 +49,37 @@ Actual time needed to complete: 5 minutes
 
 Number and name of feature: Display a Modal
 
+As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+
 Estimate of time needed to complete: 3 hours
 
 Start time: 7:49PM
 
-Finish time: _____
+Finish time: 12:56AM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 5HRS
 
 
+**Feature 4 Filter**
+
+Number and name of feature: Filter by Numbers of Horns
+
+As a user, I want to be able to view the beasts by the number of horns
+
+Given that a user is presented with filtering options
+When the user clicks on one option
+Then the images should be filtered accordingly
+
+Using the Form component of react-bootstrap, build a drop down menu so that the user can choose to filter by number of horns.
+When the user chooses one of the options, the correct images should be displayed.
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 12:57AM
+
+Finish time: 
+
+Actual time needed to complete: 
 
 
 
