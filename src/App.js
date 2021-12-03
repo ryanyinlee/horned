@@ -3,7 +3,7 @@ import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
 import data from './data.json';
-import PopUp from './PopUp.js';
+import SelectedBeast from './SelectedBeast.js';
 
 export default class App extends Component {
 
@@ -34,7 +34,7 @@ export default class App extends Component {
       <div>
         <Header />
         <Main updateBeast={this.updateBeast} data={data} />
-        <PopUp showModal={this.state.showModal} beastToShow={this.state.beastToShow} closeModal={this.state.showModal} />
+        <SelectedBeast showModal={this.state.showModal} beastToShow={this.state.beastToShow} closeModal={this.state.showModal} />
         <Footer />
       </div>
     )
