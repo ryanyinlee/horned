@@ -1,4 +1,3 @@
-// This is what SelectedBeast would be if I had read the instructions fully.
 import React, { Component } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -7,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import InThePopUp from './InThePopUp.js';
 
 
-export default class PopUp extends Component {
+export default class SelectedBeast extends Component {
 
   constructor(props) {
     super(props);
@@ -24,9 +23,9 @@ export default class PopUp extends Component {
 
     return (
 
-      <Modal show={this.props.show} onHide={this.handleClose}>
+      <Modal show={this.props.showModal} onHide={this.props.closeModal}>
         <Modal.Header closeButton>
-          <Modal.Title> {this.props.title}</Modal.Title>
+          <Modal.Title> {title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
 

@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import Image from 'react-bootstrap/Image';
-import PopUp from './PopUp.js';
+// import Image from 'react-bootstrap/Image';
+import SelectedBeast from './SelectedBeast.js';
 import Card from 'react-bootstrap/Card';
 // import Figure from 'react-bootstrap/Figure';
 // import FigureImage from 'react-bootstrap/FigureImage';
@@ -58,7 +58,7 @@ class HornedBeasts extends Component {
                 </Card.Body>
                 </Card>
            
-                <PopUp closeModal={this.closeModal} show={this.state.showModal} />
+                <SelectedBeast closeModal={this.closeModal} show={this.state.showModal} />
             </div>
         )
 
